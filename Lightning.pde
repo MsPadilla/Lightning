@@ -36,7 +36,7 @@ void draw() {
   noStroke();
   rect(0, 0, width, height);
 
-  stroke(200, 200, 255); // white line of lightning
+  stroke(random(120,200), random(120,200), random(120,255)); // white line of lightning
   
   for (int i = strikes.size() - 1; i >= 0; i--) {  
     
